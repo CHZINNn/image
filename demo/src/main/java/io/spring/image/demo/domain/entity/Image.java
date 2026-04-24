@@ -36,8 +36,8 @@ public class Image {
         private LocalDateTime uploadDate;
         @Column
         private String tags;
-        @Column
         @Lob
+        @Column(name = "file", columnDefinition = "LONGBLOB")
         private byte[] file;
 
     }
