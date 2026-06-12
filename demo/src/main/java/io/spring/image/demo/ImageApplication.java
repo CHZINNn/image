@@ -13,6 +13,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
+
+
 public class ImageApplication {
 
 //	@Bean
@@ -22,7 +24,6 @@ public class ImageApplication {
 //					.builder()
 //					.extension(ImageExtension.JPEG)
 //					.name("myimage")
-//					.tags("teste")
 //					.size(1000L)
 //					.build();
 //			repository.save(image);
